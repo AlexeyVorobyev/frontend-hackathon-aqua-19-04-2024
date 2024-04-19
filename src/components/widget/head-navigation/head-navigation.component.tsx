@@ -5,7 +5,7 @@ import {FC, ReactNode} from 'react'
 
 interface IProps {
     label: string
-    additional: ReactNode
+    additional?: ReactNode
 }
 
 export const HeadNavigation: FC<IProps> = ({
