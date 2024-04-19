@@ -7,9 +7,6 @@ export default defineConfig({
         react(),
         VitePWA({
             registerType: 'autoUpdate',
-            // devOptions: {
-            //     enabled: true,
-            // },
             workbox: {
                 clientsClaim: true,
                 skipWaiting: true,
@@ -19,9 +16,9 @@ export default defineConfig({
             injectRegister: 'auto',
             includeAssets: ['vite.svg', 'apple-touch-icon.png'],
             manifest: {
-                name: 'На колёсах!',
-                short_name: 'На колёсах!',
-                description: 'Лучшее приложение для караванинга!',
+                name: 'Анапа 360',
+                short_name: 'Анапа 360',
+                description: 'Лучшее приложение для гостя Анапы!',
                 theme_color: '#ffffff',
                 icons: [
                     {
@@ -37,9 +34,6 @@ export default defineConfig({
         port: 3000,
     },
     base: '/',
-    // esbuild: {
-    //     drop: ['console', 'debugger'],
-    // },
     optimizeDeps: {
         exclude: ['@changey/react-leaflet-markercluster'],
     },
