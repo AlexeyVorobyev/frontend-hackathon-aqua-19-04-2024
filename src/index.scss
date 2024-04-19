@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.leaflet-control-scale {
+  display: none;
+}
+
+.leaflet-control-attribution {
+  display: none;
+}
+
+.leaflet-bottom {
+  right: 15px;
+  bottom: 100px
+}
+
+.leaflet-right{
+  right: 15px;
+}
+
+.leaflet-top{
+  top: 15px;
+}
+
+.slick-slide {
+  height: 100%;
+}
+
+.markerIcon.markerBlue10 {
+  background-image: url(src/components/widget/map/icons/noun_background_blue10.svg);
+}
+
+.markerIcon {
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
