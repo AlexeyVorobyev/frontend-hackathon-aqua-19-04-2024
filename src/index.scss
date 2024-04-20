@@ -1,26 +1,30 @@
+@font-face {
+  font-family: 'MullerNarrow-Trial';
+  src: url('./fonts/MullerNarrow-Trial-Medium.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
 body {
   margin: 0;
   width: 100%;
+  font-family: 'MullerNarrow-Trial', sans-serif; /* Применяем шрифт */
 }
 
-.leaflet-control-scale {
-  display: none;
-}
-
-.leaflet-control-attribution {
+.leaflet-control-scale, .leaflet-control-attribution {
   display: none;
 }
 
 .leaflet-bottom {
   right: 15px;
-  bottom: 100px
+  bottom: 100px;
 }
 
-.leaflet-right{
+.leaflet-right {
   right: 15px;
 }
 
-.leaflet-top{
+.leaflet-top {
   top: 15px;
 }
 
@@ -45,3 +49,85 @@ body {
   padding: 5px;
 }
 
+
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mont:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-muller-trial: Muller-Trial;
+  --font-mont: Mont;
+  --font-sf-pro-display: "SF Pro Display";
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-whitesmoke-100: #f4f4f4;
+  --color-white: #fff;
+  --secondary-text: #8f8f8f;
+  --color-gray-100: #232323;
+  --color-gray-200: rgba(22, 36, 56, 0.3);
+  --color-gray-300: rgba(255, 255, 255, 0.2);
+  --color-darkslategray-100: #3a544f;
+  --mid-emphasized: #39414b;
+  --primary: #ff5733;
+  --lines: #b8b8b8;
+  --low-emphasized: #6a778b;
+  --high-emphasized: #0a2853;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-9xs: 4px;
+  --gap-base: 16px;
+  --gap-8xs: 5px;
+  --gap-5xs: 8px;
+  --gap-7xs: 6px;
+  --gap-8xs-4: 4.4px;
+  --gap-4xs-6: 8.6px;
+
+  /* Paddings */
+  --padding-2xl: 21px;
+  --padding-3xl: 22px;
+  --padding-base: 16px;
+  --padding-7xs: 6px;
+  --padding-10xs: 3px;
+  --padding-11xs: 2px;
+  --padding-9xs: 4px;
+  --padding-sm: 14px;
+  --padding-smi-5: 12.5px;
+  --padding-xs: 12px;
+  --padding-xl: 20px;
+  --padding-4xs: 9px;
+  --padding-mini: 15px;
+  --padding-lg: 18px;
+  --padding-10xs-4: 2.4px;
+  --padding-smi: 13px;
+  --padding-9xs-1: 3.1px;
+  --padding-11xs-5: 1.5px;
+  --padding-3xs: 10px;
+  --padding-6xs: 7px;
+  --padding-5xs: 8px;
+  --padding-31xl: 50px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-4xs: 9px;
+  --br-xs: 12px;
+  --br-xl: 20px;
+  --br-3xs: 10px;
+  --br-4xs-3: 8.3px;
+  --br-sm: 14px;
+
+  /* Effects */
+  --down: 0px 4px 20px rgba(151, 160, 179, 0.17);
+  --card-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+}

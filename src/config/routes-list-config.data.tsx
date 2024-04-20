@@ -2,15 +2,27 @@ import { NotExistPage } from '../components/page/not-exist/not-exist-page.compon
 import {TRoute} from '../shared-react-components/AlexRouter/AlexRouter.tsx'
 import {MapPage} from '../components/page/map/map-page.component.tsx'
 import {PlacePage} from '../components/page/place/place.component.tsx'
-
-
+import {Main} from '../components/page/glav/glav.tsx'
+import {Places} from '../components/page/sob/sob.tsx'
+import {Infocard} from '../components/page/infokard/infocard.tsx'
+import {Profile} from '../components/page/lk/lk.tsx'
 export const routesListConfig: TRoute[] = [
     {
         path: '/',
         name: 'Главная',
-        component: "DUDE WHAT THE HELL",
+        component: <Main/>,
     },
-
+    {
+        path: '/sob',
+        name: 'Интересные события',
+        component: <Places/>,
+    },
+    
+    {
+        path: '/infocard',
+        name: 'информация по карточке',
+        component: <Infocard/>,
+    },
     {
         path: '/service',
         name: 'Сервисы',
@@ -30,9 +42,9 @@ export const routesListConfig: TRoute[] = [
     },
 
     {
-        path: '/favourite',
+        path: '/lk',
         name: 'Избранное',
-        component: "DUDE WHAT THE HELL",
+        component: <Profile/>,
     },
 
     {

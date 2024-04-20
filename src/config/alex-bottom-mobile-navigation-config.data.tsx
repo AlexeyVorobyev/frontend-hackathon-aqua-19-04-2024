@@ -23,7 +23,7 @@ export const alexBottomMobileNavigationConfigData: TBottomNavigationConfig[] = [
   },
   {
     name: 'Избранное',
-    path: '/favourite',
+    path: '/lk',
     icon: FavouriteSvgMenu as unknown as OverridableComponent<SvgIconTypeMap<{}, 'svg'>>,
   },
 ]
