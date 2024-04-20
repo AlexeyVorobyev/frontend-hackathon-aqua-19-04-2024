@@ -24,7 +24,7 @@ const Bon2 = () => {
   const [activeCategory, setActiveCategory] = useState<number | null>(null);
 
   const qrImages: QRImage[] = [
-    { id: 1, src: "/public/glav/qrcode-1-1.svg", alt: "QR Code 1" },
+    { id: 1, src: "/public/qrcode-1-1.svg", alt: "QR Code 1" },
     // Add other images here if necessary
   ];
 
@@ -33,12 +33,12 @@ const Bon2 = () => {
   ];
 
   const initialCards: Card[] = [
-    { id: 1, title: "Delhi", imageSrc: "/public/glav/left-card-small-bg@2x.png", isSelected: false },
-    { id: 2, title: "Афиша", imageSrc: "/public/glav/main-card-small-bg@2x.png", isSelected: false },
-    { id: 3, title: "Парки", imageSrc: "/public/glav/right-1-card-small-bg@2x.png", isSelected: false },
-    { id: 4, title: "Пляжи", imageSrc: "/public/glav/right-2-card-small-bg@2x.png", isSelected: false },
-    { id: 5, title: "Концерты", imageSrc: "/public/glav/right-5-card-small-bg@2x.png", isSelected: false },
-    { id: 6, title: "Lucknow", imageSrc: "/public/glav/right-4-card-small-bg@2x.png", isSelected: false }
+    { id: 1, title: "Delhi", imageSrc: "/public/left-card-small-bg@2x.png", isSelected: false },
+    { id: 2, title: "Афиша", imageSrc: "/public/main-card-small-bg@2x.png", isSelected: false },
+    { id: 3, title: "Парки", imageSrc: "/public/right-1-card-small-bg@2x.png", isSelected: false },
+    { id: 4, title: "Пляжи", imageSrc: "/public/right-2-card-small-bg@2x.png", isSelected: false },
+    { id: 5, title: "Концерты", imageSrc: "/public/right-5-card-small-bg@2x.png", isSelected: false },
+    { id: 6, title: "Lucknow", imageSrc: "/public/right-4-card-small-bg@2x.png", isSelected: false }
   ];
   const [cards, setCards] = useState<Card[]>(initialCards);
   const [isActive, setIsActive] = useState<boolean>(false);
@@ -70,7 +70,7 @@ const Bon2 = () => {
               className={styles.mingcutecoinFillIcon}
               loading="lazy"
               alt=""
-              src="/public/glav/mingcutecoinfill@2x.png"
+              src="/public/mingcutecoinfill@2x.png"
             />
             <div className={styles.div7}>
               {pointsData.map(item => (

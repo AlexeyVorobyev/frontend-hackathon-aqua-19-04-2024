@@ -22,7 +22,7 @@ const Nav: NextPage = () => {
         greeting: "Привет!",
         firstName: "Сергей",
         lastName: "Мельников",
-        imageSrc: "/public/glav/frame-1000000873@2x.png"
+        imageSrc: "/public/frame-1000000873@2x.png"
       }
     ];
     const temperatureData = [
@@ -53,7 +53,7 @@ const Nav: NextPage = () => {
       className={styles.solarbellBingLinearIcon}
       loading="lazy"
       alt=""
-      src="/public/glav/solarbellbinglinear.svg"
+      src="/public/solarbellbinglinear.svg"
     />
   </div>
   <div className={styles.frameDiv}>
@@ -65,7 +65,7 @@ const Nav: NextPage = () => {
             className={styles.solarcloudRainOutlineIcon}
             loading="lazy"
             alt=""
-            src="/public/glav/solarcloudrainoutline.svg"
+            src="/public/solarcloudrainoutline.svg"
           />
          <div className={styles.c}>{temperatureData[0].temperature}</div>
         </div>
@@ -78,7 +78,7 @@ const Nav: NextPage = () => {
       className={styles.iconlylightOutlinesearch}
       loading="lazy"
       alt=""
-      src="/public/glav/iconlylightoutlinesearch@2x.png"
+      src="/public/iconlylightoutlinesearch@2x.png"
     />
     <input
       className={styles.input}
@@ -92,7 +92,7 @@ const Nav: NextPage = () => {
     className={styles.lucidescanLineIcon}
     loading="lazy"
     alt=""
-    src="/public/glav/lucidescanline.svg"
+    src="/public/lucidescanline.svg"
   />
 </div>
 </div>

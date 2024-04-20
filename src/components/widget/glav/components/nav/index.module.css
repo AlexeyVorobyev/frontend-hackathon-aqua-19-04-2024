@@ -257,7 +257,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 62px var(--padding-sm) var(--padding-7xs);
-  background-image: url(/public/glav/main-card-small-bg@2x.png);
+  background-image: url(/public/main-card-small-bg@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -310,7 +310,7 @@
   border-radius: var(--br-xs);
   flex-direction: row;
   padding: var(--padding-31xl) var(--padding-base) var(--padding-3xs);
-  background-image: url(/public/glav/right-1-card-small-bg@2x.png);
+  background-image: url(/public/right-1-card-small-bg@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

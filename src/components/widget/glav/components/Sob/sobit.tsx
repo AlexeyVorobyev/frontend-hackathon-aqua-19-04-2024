@@ -29,12 +29,12 @@ const Sob: React.FC = () => {
 
 
   const initialCards: Card[] = [
-    { id: 1, title: "Delhi", imageSrc: "/public/glav/left-card-small-bg@2x.png", isSelected: false },
-    { id: 2, title: "Афиша", imageSrc: "/public/glav/main-card-small-bg@2x.png", isSelected: false },
-    { id: 3, title: "Парки", imageSrc: "/public/glav/right-1-card-small-bg@2x.png", isSelected: false },
-    { id: 4, title: "Пляжи", imageSrc: "/public/glav/right-2-card-small-bg@2x.png", isSelected: false },
-    { id: 5, title: "Концерты", imageSrc: "/public/glav/right-5-card-small-bg@2x.png", isSelected: false },
-    { id: 6, title: "Lucknow", imageSrc: "/public/glav/right-4-card-small-bg@2x.png", isSelected: false }
+    { id: 1, title: "Delhi", imageSrc: "/public/left-card-small-bg@2x.png", isSelected: false },
+    { id: 2, title: "Афиша", imageSrc: "/public/main-card-small-bg@2x.png", isSelected: false },
+    { id: 3, title: "Парки", imageSrc: "/public/right-1-card-small-bg@2x.png", isSelected: false },
+    { id: 4, title: "Пляжи", imageSrc: "/public/right-2-card-small-bg@2x.png", isSelected: false },
+    { id: 5, title: "Концерты", imageSrc: "/public/right-5-card-small-bg@2x.png", isSelected: false },
+    { id: 6, title: "Lucknow", imageSrc: "/public/right-4-card-small-bg@2x.png", isSelected: false }
   ];
   const [cards, setCards] = useState<Card[]>(initialCards);
 
@@ -43,18 +43,18 @@ const Sob: React.FC = () => {
       id: 1,
       eventName: "Концерт “Верь в себя”",
       location: "ул. Марксистов",
-      imageUrl: "/public/glav/image@2x.png",
-      iconUrl: "/public/glav/heart.svg",
-      pinIconUrl: "/public/glav/pin-icon.svg",
+      imageUrl: "/public/image@2x.png",
+      iconUrl: "/public/heart.svg",
+      pinIconUrl: "/public/pin-icon.svg",
       rating: "4.8"
     },
     {
       id: 2,
       eventName: "Концерт “Верь в себя”",
       location: "ул. Марксистов",
-      imageUrl: "/public/glav/image-1@2x.png",
-      iconUrl: "/public/glav/heart.svg",
-      pinIconUrl: "/public/glav/pin-icon.svg",
+      imageUrl: "/public/image-1@2x.png",
+      iconUrl: "/public/heart.svg",
+      pinIconUrl: "/public/pin-icon.svg",
       rating: "4.8"
     }
   ];
@@ -99,7 +99,7 @@ const Sob: React.FC = () => {
                     </div>
                     <div className={styles.rating}>
                       <div className={styles.ratingIconWrapper}>
-                        <img className={styles.ratingIcon} loading="lazy" alt="" src="/public/glav/rating-icon.svg" />
+                        <img className={styles.ratingIcon} loading="lazy" alt="" src="/public/rating-icon.svg" />
                       </div>
                       <div className={styles.div12}>{card.rating}</div>
                     </div>

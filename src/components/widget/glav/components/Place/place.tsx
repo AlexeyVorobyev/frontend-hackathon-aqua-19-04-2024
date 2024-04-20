@@ -23,12 +23,12 @@ const Place: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<Card | null>(null);
 
   const initialCards: Card[] = [
-    { id: 1, title: "Delhi", imageSrc: "/public/glav/left-card-small-bg@2x.png", isSelected: false },
-    { id: 2, title: "Афиша", imageSrc: "/public/glav/main-card-small-bg@2x.png", isSelected: false },
-    { id: 3, title: "Парки", imageSrc: "/public/glav/right-1-card-small-bg@2x.png", isSelected: false },
-    { id: 4, title: "Пляжи", imageSrc: "/public/glav/right-2-card-small-bg@2x.png", isSelected: false },
-    { id: 5, title: "Концерты", imageSrc: "/public/glav/right-5-card-small-bg@2x.png", isSelected: false },
-    { id: 6, title: "Lucknow", imageSrc: "/public/glav/right-4-card-small-bg@2x.png", isSelected: false }
+    { id: 1, title: "Delhi", imageSrc: "/public/left-card-small-bg@2x.png", isSelected: false },
+    { id: 2, title: "Афиша", imageSrc: "/public/main-card-small-bg@2x.png", isSelected: false },
+    { id: 3, title: "Парки", imageSrc: "/public/right-1-card-small-bg@2x.png", isSelected: false },
+    { id: 4, title: "Пляжи", imageSrc: "/public/right-2-card-small-bg@2x.png", isSelected: false },
+    { id: 5, title: "Концерты", imageSrc: "/public/right-5-card-small-bg@2x.png", isSelected: false },
+    { id: 6, title: "Lucknow", imageSrc: "/public/right-4-card-small-bg@2x.png", isSelected: false }
   ];
   const [cards, setCards] = useState<Card[]>(initialCards);
   const [isActive, setIsActive] = useState<boolean>(false);
@@ -38,19 +38,19 @@ const Place: React.FC = () => {
       id: 1,
       eventName: 'Санаторий Голубая волна',
       location: 'Bali, Indonesia',
-      imageUrl: '/public/glav/image-1@2x.png',
+      imageUrl: '/public/image-1@2x.png',
       rating: '4.8',
-      pinIconUrl: '/public/glav/pin-icon-2.svg',
-      iconUrl: '/public/glav/heart.svg',
+      pinIconUrl: '/public/pin-icon-2.svg',
+      iconUrl: '/public/heart.svg',
     },
     {
       id: 2,
       eventName: 'Fagradalsfjall',
       location: 'Reykjavík, Iceland',
-      imageUrl: '/public/glav/image-3@2x.png',
+      imageUrl: '/public/image-3@2x.png',
       rating: '4.8',
-      pinIconUrl: '/public/glav/pin-icon-3.svg',
-      iconUrl: '/public/glav/heart.svg',
+      pinIconUrl: '/public/pin-icon-3.svg',
+      iconUrl: '/public/heart.svg',
     },
   ];
 
@@ -88,7 +88,7 @@ const Place: React.FC = () => {
                     </div>
                     <div className={styles.rating}>
                       <div className={styles.ratingIconWrapper}>
-                        <img className={styles.ratingIcon} loading="lazy" alt="" src="/public/glav/rating-icon.svg" />
+                        <img className={styles.ratingIcon} loading="lazy" alt="" src="/public/rating-icon.svg" />
                       </div>
                       <div className={styles.div12}>{card.rating}</div>
                     </div>

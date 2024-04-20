@@ -10,30 +10,30 @@ const Hot: NextPage = () => {
   // Обработчик изменений в поле ввода
   // Здесь можно реализовать функцию поиска, например, фильтрацию данных
   const initialCards = [
-    { id: 1, title: "Delhi", imageSrc: "/public/glav/left-card-small-bg@2x.png", isSelected: false },
-    { id: 2, title: "Афиша", imageSrc: "/public/glav/main-card-small-bg@2x.png", isSelected: false },
-    { id: 3, title: "Парки", imageSrc: "/public/glav/right-1-card-small-bg@2x.png", isSelected: false },
-    { id: 4, title: "Пляжи", imageSrc: "/public/glav/right-2-card-small-bg@2x.png", isSelected: false },
-    { id: 5, title: "Концерты", imageSrc: "/public/glav/right-5-card-small-bg@2x.png", isSelected: false },
-    { id: 6, title: "Lucknow", imageSrc: "/public/glav/right-4-card-small-bg@2x.png", isSelected: false }
+    { id: 1, title: "Delhi", imageSrc: "/public/left-card-small-bg@2x.png", isSelected: false },
+    { id: 2, title: "Афиша", imageSrc: "/public/main-card-small-bg@2x.png", isSelected: false },
+    { id: 3, title: "Парки", imageSrc: "/public/right-1-card-small-bg@2x.png", isSelected: false },
+    { id: 4, title: "Пляжи", imageSrc: "/public/right-2-card-small-bg@2x.png", isSelected: false },
+    { id: 5, title: "Концерты", imageSrc: "/public/right-5-card-small-bg@2x.png", isSelected: false },
+    { id: 6, title: "Lucknow", imageSrc: "/public/right-4-card-small-bg@2x.png", isSelected: false }
   ];
   const dataArray = [
     {
       id: 1,
-      rectangleImageUrl: "/public/glav/rectangle-992@2x.png",
+      rectangleImageUrl: "/public/rectangle-992@2x.png",
       rating: 9.3,
       maxRating: 10,
       placeName: "Гранд Сапфир",
-      iconUrl: "/public/glav/swm-icons--broken--trendingup.svg",
+      iconUrl: "/public/swm-icons--broken--trendingup.svg",
       dealType: "Hot Deal"
     },
     {
       id: 2,
-      rectangleImageUrl: "/public/glav/rectangle-992-1@2x.png",
+      rectangleImageUrl: "/public/rectangle-992-1@2x.png",
       rating: 8.5,
       maxRating: 10,
       placeName: "Luxurious Aspen",
-      iconUrl: "/public/glav/swm-icons--broken--trendingup.svg",
+      iconUrl: "/public/swm-icons--broken--trendingup.svg",
       dealType: "Hot Deal"
     },
     // Добавьте другие объекты данных по аналогии с вышеприведенными

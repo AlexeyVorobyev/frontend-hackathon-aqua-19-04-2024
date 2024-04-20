@@ -12,27 +12,27 @@ interface Card {
 
 export const Places: React.FC = () => {
     const cards = [
-        { title: 'Концерт “Верь в себя”', address: 'ул. Марксистов',  image: '/public/sob/2@2x.png' },
-        { title: 'Фестиваль “Лето начинается!”', address: 'ул. Ленина', image: '/public/sob/3@2x.png' },
-        { title: 'Выставка “Современное искусство”', address: 'ул. Пушкина',  image: '/public/sob/3@2x.png' }
+        { title: 'Концерт “Верь в себя”', address: 'ул. Марксистов',  image: '/public/2@2x.png' },
+        { title: 'Фестиваль “Лето начинается!”', address: 'ул. Ленина', image: '/public/3@2x.png' },
+        { title: 'Выставка “Современное искусство”', address: 'ул. Пушкина',  image: '/public/3@2x.png' }
       ];
       const cards1 = [
         { 
           title: 'Концерт “Верь в себя”', 
           address: 'ул. Марксистов',  
-          image: '/public/sob/2@2x.png',
+          image: '/public/2@2x.png',
           price: '500'
         },
         { 
           title: 'Фестиваль “Лето начинается!”', 
           address: 'ул. Ленина', 
-          image: '/public/sob/3@2x.png',
+          image: '/public/3@2x.png',
           price: '800' // Assuming you have a price, add it here
         },
         { 
           title: 'Выставка “Современное искусство”', 
           address: 'ул. Пушкина',  
-          image: '/public/sob/3@2x.png',
+          image: '/public/3@2x.png',
           price: '650' // Assuming you have a price, add it here
         }
       ];
@@ -77,19 +77,19 @@ export const Places: React.FC = () => {
                 className={styles.cellularIcon}
                 loading="lazy"
                 alt=""
-                src="/public/sob/cellular.svg"
+                src="/public/cellular.svg"
               />
               <img
                 className={styles.wifiIcon}
                 loading="lazy"
                 alt=""
-                src="/public/sob/wifi.svg"
+                src="/public/wifi.svg"
               />
               <img
                 className={styles.batteryminiIcon}
                 loading="lazy"
                 alt=""
-                src="/public/sob/batterymini.svg"
+                src="/public/batterymini.svg"
               />
             </div>
           </div>
@@ -104,7 +104,7 @@ export const Places: React.FC = () => {
                 className={styles.backIcon}
                 loading="lazy"
                 alt=""
-                src="/public/sob/back.svg"
+                src="/public/back.svg"
               /> </Link>
               <div className={styles.heart}>
                 <h2 className={styles.h2}>Интересные события</h2>
@@ -117,7 +117,7 @@ export const Places: React.FC = () => {
                 <img
                   className={styles.iconlylightOutlinesearch}
                   alt=""
-                  src="/public/sob/iconlylightoutlinesearch@2x.png"
+                  src="/public/iconlylightoutlinesearch@2x.png"
                 />
                 <input
                   className={styles.input}
@@ -128,7 +128,7 @@ export const Places: React.FC = () => {
               <img
                 className={styles.solarmapLineDuotoneIcon}
                 alt=""
-                src="/public/sob/solarmaplineduotone.svg"
+                src="/public/solarmaplineduotone.svg"
               />
             </div>
           </div>
@@ -176,7 +176,7 @@ export const Places: React.FC = () => {
                       <img
                         className={styles.heartIcon1}
                         alt=""
-                        src="/public/sob/heart-1.svg"
+                        src="/public/heart-1.svg"
                       />
                     </div>
                   </div>
@@ -187,7 +187,7 @@ export const Places: React.FC = () => {
                           className={styles.pinIcon}
                           loading="lazy"
                           alt=""
-                          src="/public/sob/pin-icon.svg"
+                          src="/public/pin-icon.svg"
                         />
                       </div>
                       <div className={styles.div2}>{card.address}</div>
@@ -198,7 +198,7 @@ export const Places: React.FC = () => {
                           className={styles.ratingIcon2}
                           loading="lazy"
                           alt=""
-                          src="/public/sob/rating-icon.svg"
+                          src="/public/rating-icon.svg"
                         />
                       </div>
                       <div className={styles.div3}>4.8</div>
@@ -215,7 +215,7 @@ export const Places: React.FC = () => {
                       <img
                         className={styles.solarcartLarge3LineDuotonIcon}
                         alt=""
-                        src="/public/sob/solarcartlarge3lineduotone.svg"
+                        src="/public/solarcartlarge3lineduotone.svg"
                       />
                       <div className={styles.div5}>Добавить</div>
                     </div>

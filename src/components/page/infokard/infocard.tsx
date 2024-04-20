@@ -29,19 +29,19 @@ export const Infocard: NextPage = () => {
                     className={styles.cellularIcon}
                     loading="lazy"
                     alt=""
-                    src="/public/infocard/cellular.svg"
+                    src="/public/cellular.svg"
                   />
                   <img
                     className={styles.wifiIcon}
                     loading="lazy"
                     alt=""
-                    src="/public/infocard/wifi.svg"
+                    src="/public/wifi.svg"
                   />
                   <img
                     className={styles.batteryminiIcon}
                     loading="lazy"
                     alt=""
-                    src="/public/infocard/batterymini.svg"
+                    src="/public/batterymini.svg"
                   />
                 </div>
               </div>
@@ -53,7 +53,7 @@ export const Infocard: NextPage = () => {
               <img
                 className={styles.frameChild}
                 alt=""
-                src="/public/infocard/rectangle-990@2x.png"
+                src="/public/rectangle-990@2x.png"
               />
               <div className={styles.locationName}>
                 <div className={styles.octoberOnPlaces}>
@@ -62,7 +62,7 @@ export const Infocard: NextPage = () => {
                       className={styles.solarClockIcon}
                       loading="lazy"
                       alt=""
-                      src="/public/infocard/vector.svg"
+                      src="/public/vector.svg"
                     /></Link>
                   </div>
                   <div className={styles.wrapper}>
@@ -76,7 +76,7 @@ export const Infocard: NextPage = () => {
                   className={styles.locationNameChild}
                   loading="lazy"
                   alt=""
-                  src="/public/infocard/frame-1000003404.svg"
+                  src="/public/frame-1000003404.svg"
                 />
               </div>
               <div className={styles.carouselWrapper}>
@@ -84,7 +84,7 @@ export const Infocard: NextPage = () => {
                   className={styles.carouselIcon}
                   loading="lazy"
                   alt=""
-                  src="/public/infocard/carousel.svg"
+                  src="/public/carousel.svg"
                 />
               </div>
             </div>
@@ -106,7 +106,7 @@ export const Infocard: NextPage = () => {
                       <img
                         className={styles.solarcalendarLineDuotoneIcon}
                         alt=""
-                        src="/public/infocard/solarcalendarlineduotone.svg"
+                        src="/public/solarcalendarlineduotone.svg"
                       />
                       <div className={styles.div2}>22.10.2024</div>
                     </div>
@@ -116,7 +116,7 @@ export const Infocard: NextPage = () => {
                       <img
                         className={styles.solarclockCircleLineDuotonIcon}
                         alt=""
-                        src="/public/infocard/solarclockcirclelineduotone.svg"
+                        src="/public/solarclockcirclelineduotone.svg"
                       />
                       <div className={styles.div3}>11:00</div>
                     </div>
@@ -129,7 +129,7 @@ export const Infocard: NextPage = () => {
                     className={styles.ratingIcon}
                     loading="lazy"
                     alt=""
-                    src="/public/infocard/rating-icon.svg"
+                    src="/public/rating-icon.svg"
                   />
                 </div>
                 <div className={styles.div4}>4.8</div>
@@ -143,7 +143,7 @@ export const Infocard: NextPage = () => {
             <div className={styles.readMoreWrapper}>
               <div className={styles.readMore}>{fullTextShown ? "Скрыть" : "Читать больше"}</div>
             </div>
-            <img className={styles.downIcon} alt="" src={fullTextShown ? "/public/infocard/down@2x.png" : "/public/infocard/down@2x.png"} />
+            <img className={styles.downIcon} alt="" src={fullTextShown ? "/public/down@2x.png" : "/public/down@2x.png"} />
           </div>
         </div>
             <div className={styles.anapaUlMarxistsStreet}>
@@ -154,13 +154,13 @@ export const Infocard: NextPage = () => {
                 <img
                   className={styles.icon}
                   alt=""
-                  src="/public/infocard/--20240419--1309-1@2x.png"
+                  src="/public/--20240419--1309-1@2x.png"
                 />
                 <img
                   className={styles.solarmapPointBoldIcon}
                   loading="lazy"
                   alt=""
-                  src="/public/infocard/solarmappointbold.svg"
+                  src="/public/solarmappointbold.svg"
                 />
               </div>
             </div>
@@ -176,7 +176,7 @@ export const Infocard: NextPage = () => {
                   className={styles.solarmedalStarCircleBoldDIcon}
                   loading="lazy"
                   alt=""
-                  src="/public/infocard/solarmedalstarcircleboldduotone.svg"
+                  src="/public/solarmedalstarcircleboldduotone.svg"
                 />
                 <div className={styles.joinButton}>
                   <div className={styles.div8}>Приветственные баллы</div>
@@ -189,7 +189,7 @@ export const Infocard: NextPage = () => {
               <img
                 className={styles.anapaScreenshotIcon}
                 alt=""
-                src="/public/infocard/vector-1.svg"
+                src="/public/vector-1.svg"
               />
             </div>
             <div className={styles.discountPercentage}>
@@ -217,7 +217,7 @@ export const Infocard: NextPage = () => {
                     className={styles.solarscannerBoldDuotoneIcon}
                     loading="lazy"
                     alt=""
-                    src="/public/infocard/solarscannerboldduotone.svg"
+                    src="/public/solarscannerboldduotone.svg"
                   />
                 </div>
                 <div className={styles.div13}>
@@ -243,7 +243,7 @@ export const Infocard: NextPage = () => {
                   className={styles.mingcutecoinFillIcon}
                   loading="lazy"
                   alt=""
-                  src="/public/infocard/mingcutecoinfill@2x.png"
+                  src="/public/mingcutecoinfill@2x.png"
                 />
                 <div className={styles.solarAppointment}>
                   <span className={styles.span3}>+</span>
@@ -258,7 +258,7 @@ export const Infocard: NextPage = () => {
                 <img
                   className={styles.solarcartLarge3LineDuotonIcon}
                   alt=""
-                  src="/public/infocard/solarcartlarge3lineduotone.svg"
+                  src="/public/solarcartlarge3lineduotone.svg"
                 />
                 <div className={styles.div16}>Добавить в корзину</div>
               </div>
@@ -267,7 +267,7 @@ export const Infocard: NextPage = () => {
               className={styles.anapaLocationChild}
               loading="lazy"
               alt=""
-              src="/public/infocard/frame-1000003371.svg"
+              src="/public/frame-1000003371.svg"
             />
           </div>
         </section>
