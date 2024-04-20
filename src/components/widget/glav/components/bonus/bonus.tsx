@@ -14,12 +14,12 @@ const Bon: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [activeCategory, setActiveCategory] = useState<number | null>(null);
   const [cards, setCards] = useState<Card[]>([
-    { id: 1, title: "Delhi", imageSrc: "/public/left-card-small-bg@2x.png", isSelected: false },
-    { id: 2, title: "Афиша", imageSrc: "/public/main-card-small-bg@2x.png", isSelected: false },
-    { id: 3, title: "Парки", imageSrc: "/public/right-1-card-small-bg@2x.png", isSelected: false },
-    { id: 4, title: "Пляжи", imageSrc: "/public/right-2-card-small-bg@2x.png", isSelected: false },
-    { id: 5, title: "Концерты", imageSrc: "/public/right-5-card-small-bg@2x.png", isSelected: false },
-    { id: 6, title: "Lucknow", imageSrc: "/public/right-4-card-small-bg@2x.png", isSelected: false }  ]);
+    { id: 1, title: "Delhi", imageSrc: "/public/glav/left-card-small-bg@2x.png", isSelected: false },
+    { id: 2, title: "Афиша", imageSrc: "/public/glav/main-card-small-bg@2x.png", isSelected: false },
+    { id: 3, title: "Парки", imageSrc: "/public/glav/right-1-card-small-bg@2x.png", isSelected: false },
+    { id: 4, title: "Пляжи", imageSrc: "/public/glav/right-2-card-small-bg@2x.png", isSelected: false },
+    { id: 5, title: "Концерты", imageSrc: "/public/glav/right-5-card-small-bg@2x.png", isSelected: false },
+    { id: 6, title: "Lucknow", imageSrc: "/public/glav/right-4-card-small-bg@2x.png", isSelected: false }  ]);
   const [isActive, setIsActive] = useState<boolean>(false);
 
   const handleCardClick = (id: number): void => {

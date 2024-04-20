@@ -14,20 +14,20 @@ import Infost from '../../widget/glav/components/Infost/infost';
 const dataArray3 = [
   {
     id: 1,
-    rectangleImageUrl: "/public/rectangle-992@2x.png",
+    rectangleImageUrl: "/public/glav/rectangle-992@2x.png",
     rating: 9.3,
     maxRating: 10,
     placeName: "Гранд Сапфир",
-    iconUrl: "/public/swm-icons--broken--trendingup.svg",
+    iconUrl: "/public/glav/swm-icons--broken--trendingup.svg",
     dealType: "Hot Deal"
   },
   {
     id: 2,
-    rectangleImageUrl: "/public/rectangle-992-1@2x.png",
+    rectangleImageUrl: "/public/glav/rectangle-992-1@2x.png",
     rating: 8.5,
     maxRating: 10,
     placeName: "Luxurious Aspen",
-    iconUrl: "/public/swm-icons--broken--trendingup.svg",
+    iconUrl: "/public/glav/swm-icons--broken--trendingup.svg",
     dealType: "Hot Deal"
   },
 ];

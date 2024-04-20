@@ -63,19 +63,19 @@ export const Profile = () => {
                 className={styles.cellularIcon}
                 loading="lazy"
                 alt=""
-                src="/public/cellular.svg"
+                src="/public/lk/cellular.svg"
               />
               <img
                 className={styles.wifiIcon}
                 loading="lazy"
                 alt=""
-                src="/public/wifi.svg"
+                src="/public/lk/wifi.svg"
               />
               <img
                 className={styles.batteryminiIcon}
                 loading="lazy"
                 alt=""
-                src="/public/batterymini.svg"
+                src="/public/lk/batterymini.svg"
               />
             </div>
           </div>
@@ -90,7 +90,7 @@ export const Profile = () => {
                 className={styles.footerIcon}
                 loading="lazy"
                 alt=""
-                src="/public/frame-1000000873@2x.png"
+                src="/public/lk/frame-1000000873@2x.png"
               />
                 <div className={styles.frameWrapper}>
                   <div className={styles.parent}>
@@ -107,7 +107,7 @@ export const Profile = () => {
                 <img
                     className={styles.mingcutecoinFillIcon}
                     alt=""
-                    src="/public/mingcutecoinfill@2x.png"
+                    src="/public/lk/mingcutecoinfill@2x.png"
                 />
                 <b className={styles.b}>2 000</b>
               </button>
@@ -120,14 +120,14 @@ export const Profile = () => {
                   <img
                     className={styles.solarsettingsLineDuotoneIcon}
                     alt=""
-                    src="/public/solarsettingslineduotone.svg"
+                    src="/public/lk/solarsettingslineduotone.svg"
                   />
                   <div className={styles.div4}>Настройки</div>
                 </div>
                 <img
                   className={styles.footerInstanceIcon}
                   alt=""
-                  src="/public/footer-instance.svg"
+                  src="/public/lk/footer-instance.svg"
                 />
               </div>
             </button>
@@ -137,14 +137,14 @@ export const Profile = () => {
                   <img
                     className={styles.solarchatRoundLineLineDuoIcon}
                     alt=""
-                    src="/public/solarchatroundlinelineduotone.svg"
+                    src="/public/lk/solarchatroundlinelineduotone.svg"
                   />
                   <div className={styles.div5}>Поддержка</div>
                 </div>
                 <img
                   className={styles.btnloadmoreIcon}
                   alt=""
-                  src="/public/footer-instance.svg"
+                  src="/public/lk/footer-instance.svg"
                 />
               </div>
             </button>
@@ -154,14 +154,14 @@ export const Profile = () => {
                   <img
                     className={styles.solarheartLineDuotoneIcon}
                     alt=""
-                    src="/public/solarheartlineduotone.svg"
+                    src="/public/lk/solarheartlineduotone.svg"
                   />
                   <div className={styles.div6}>Избранное</div>
                 </div>
                 <img
                   className={styles.vectorIcon}
                   alt=""
-                  src="/public/footer-instance.svg"
+                  src="/public/lk/footer-instance.svg"
                 />
               </div>
             </button>
@@ -186,7 +186,7 @@ export const Profile = () => {
                   className={styles.mingcutecoinFillIcon1}
                   loading="lazy"
                   alt=""
-                  src="/public/mingcutecoinfill-1@2x.png"
+                  src="/public/lk/mingcutecoinfill-1@2x.png"
                 />
                 <div className={styles.div9}>
                   <span className={styles.span}>+</span>
@@ -203,7 +203,7 @@ export const Profile = () => {
                   className={styles.mingcutecoinFillIcon2}
                   loading="lazy"
                   alt=""
-                  src="/public/mingcutecoinfill-1@2x.png"
+                  src="/public/lk/mingcutecoinfill-1@2x.png"
                 />
                 <div className={styles.div11}>
                   <span className={styles.span1}>+</span>
@@ -220,7 +220,7 @@ export const Profile = () => {
                   className={styles.mingcutecoinFillIcon3}
                   loading="lazy"
                   alt=""
-                  src="/public/mingcutecoinfill-1@2x.png"
+                  src="/public/lk/mingcutecoinfill-1@2x.png"
                 />
                 <div className={styles.div13}>
                   <span className={styles.span2}>+</span>
@@ -244,14 +244,14 @@ export const Profile = () => {
               className={styles.subtractIcon}
               loading="lazy"
               alt=""
-              src="/public/subtract.svg"
+              src="/public/lk/subtract.svg"
             />
             <div className={styles.settingsMenuWrapper}>
               <div className={styles.settingsMenu}>
                 <img
                   className={styles.subtractIcon1}
                   alt=""
-                  src="/public/subtract-1.svg"
+                  src="/public/lk/subtract-1.svg"
                 />
                 <div className={styles.frameParent7}>
                   <div className={styles.frameParent8}>
@@ -272,7 +272,7 @@ export const Profile = () => {
                           className={styles.mingcutecoinFillIcon4}
                           loading="lazy"
                           alt=""
-                          src="/public/mingcutecoinfill-6@2x.png"
+                          src="/public/lk/mingcutecoinfill-6@2x.png"
                         />
                         <div className={styles.div32}>
                           <span className={styles.span8}>+</span>
@@ -290,14 +290,14 @@ export const Profile = () => {
               className={styles.subtractIcon2}
               loading="lazy"
               alt=""
-              src="/public/subtract.svg"
+              src="/public/lk/subtract.svg"
             />
             <div className={styles.groupDiv}>
               <div className={styles.subtractParent}>
                 <img
                   className={styles.subtractIcon3}
                   alt=""
-                  src="/public/subtract-1.svg"
+                  src="/public/lk/subtract-1.svg"
                 />
                 <div className={styles.frameParent9}>
                   <div className={styles.frameParent10}>
@@ -318,7 +318,7 @@ export const Profile = () => {
                           className={styles.mingcutecoinFillIcon4}
                           loading="lazy"
                           alt=""
-                          src="/public/mingcutecoinfill-6@2x.png"
+                          src="/public/lk/mingcutecoinfill-6@2x.png"
                         />
                         <div className={styles.div32}>
                           <span className={styles.span8}>+</span>
@@ -336,14 +336,14 @@ export const Profile = () => {
               className={styles.subtractIcon4}
               loading="lazy"
               alt=""
-              src="/public/subtract.svg"
+              src="/public/lk/subtract.svg"
             />
             <div className={styles.inner1}>
               <div className={styles.subtractGroup}>
                 <img
                   className={styles.subtractIcon5}
                   alt=""
-                  src="/public/subtract-1.svg"
+                  src="/public/lk/subtract-1.svg"
                 />
                 <div className={styles.frameParent11}>
                   <div className={styles.frameParent12}>
@@ -364,7 +364,7 @@ export const Profile = () => {
                           className={styles.mingcutecoinFillIcon4}
                           loading="lazy"
                           alt=""
-                          src="/public/mingcutecoinfill-6@2x.png"
+                          src="/public/lk/mingcutecoinfill-6@2x.png"
                         />
                         <div className={styles.div32}>
                           <span className={styles.span8}>+</span>
@@ -393,7 +393,7 @@ export const Profile = () => {
                     className={styles.frameChild}
                     loading="lazy"
                     alt=""
-                    src="/public/frame-1000003075.svg"
+                    src="/public/lk/frame-1000003075.svg"
                   />
                   <div className={styles.parent10}>
                     <div className={styles.div34}>Шаповалова Арина</div>
@@ -406,7 +406,7 @@ export const Profile = () => {
                   className={styles.servicesMenuChild}
                   loading="lazy"
                   alt=""
-                  src="/public/frame-1000003077.svg"
+                  src="/public/lk/frame-1000003077.svg"
                 />
               </div>
             </div>
@@ -416,7 +416,7 @@ export const Profile = () => {
                   className={styles.frameItem}
                   loading="lazy"
                   alt=""
-                  src="/public/frame-1000003075-1@2x.png"
+                  src="/public/lk/frame-1000003075-1@2x.png"
                 />
                 <div className={styles.parent11}>
                   <div className={styles.div35}>Лебедева Мария</div>
@@ -429,7 +429,7 @@ export const Profile = () => {
                 className={styles.frameInner}
                 loading="lazy"
                 alt=""
-                src="/public/frame-1000003077-1.svg"
+                src="/public/lk/frame-1000003077-1.svg"
               />
             </div>
             <div className={styles.frameParent19}>
@@ -438,7 +438,7 @@ export const Profile = () => {
                   className={styles.frameIcon}
                   loading="lazy"
                   alt=""
-                  src="/public/frame-1000003075-2@2x.png"
+                  src="/public/lk/frame-1000003075-2@2x.png"
                 />
                 <div className={styles.parent12}>
                   <div className={styles.div36}>Орлова Анастасия</div>
@@ -449,7 +449,7 @@ export const Profile = () => {
                 className={styles.frameChild1}
                 loading="lazy"
                 alt=""
-                src="/public/frame-1000003077-2.svg"
+                src="/public/lk/frame-1000003077-2.svg"
               />
             </div>
           </div>
