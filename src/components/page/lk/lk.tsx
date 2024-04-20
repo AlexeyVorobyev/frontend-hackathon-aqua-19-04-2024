@@ -1,8 +1,55 @@
-import type { NextPage } from "next";
-import styles from "./index.module.css";
+import styles from './index.module.css'
+import React, {useState} from 'react'
+import {Button, Paper, Popover, Stack, Typography} from '@mui/material'
+import {theme} from '../../../core/theme/theme.ts'
 
-export const Profile: NextPage = () => {
-  return (
+
+export const Profile = () => {
+
+  const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
+
+  const handleClick = (event: any) => {
+    setAnchorEl(event.currentTarget)
+    setOpenButtonPopover(!openButtonPopover)
+  };
+
+  const [openButtonPopover, setOpenButtonPopover] = useState<boolean>(false)
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  return (<>
+    <Popover open={openButtonPopover} anchorEl={anchorEl} onClose={handleClose}>
+      <Paper elevation={3} sx={{ padding: '10px' }}>
+        <Stack direction={'column'} spacing={theme.spacing(1)} alignItems={'center'}>
+          <Typography variant={'subtitle1'}>Выйти из аккаунта?</Typography>
+          <Stack direction={'row'} spacing={theme.spacing(1)}>
+            <Button size={'large'}
+                    sx={{
+                      width: '80px',
+                    }}
+                    color={'error'}
+                    onClick={() => {
+                      localStorage.clear()
+                      location.reload()
+                    }}
+                    variant="contained">
+              Да
+            </Button>
+            <Button size={'large'}
+                    sx={{
+                      width: '80px',
+                    }}
+                    color={'neutral'}
+                    onClick={() => setOpenButtonPopover(false)}
+                    variant="outlined">
+              Нет
+            </Button>
+          </Stack>
+        </Stack>
+      </Paper>
+    </Popover>
     <div className={styles.profile}>
       <header className={styles.mobile}>
         <div className={styles.statusBarmini}>
@@ -38,29 +85,29 @@ export const Profile: NextPage = () => {
       <section className={styles.batteryMiniInstance}>
         <div className={styles.frameParent}>
           <div className={styles.frameGroup}>
-            <div className={styles.footerParent}>
+            <div className={styles.footerParent} onClick={handleClick}>
               <img
                 className={styles.footerIcon}
                 loading="lazy"
                 alt=""
                 src="/public/lk/frame-1000000873@2x.png"
               />
-              <div className={styles.frameWrapper}>
-                <div className={styles.parent}>
-                  <div className={styles.div}>Привет!</div>
-                  <div className={styles.div1}>
-                    <p className={styles.p}>Сергей</p>
-                    <p className={styles.p1}>Мельников</p>
+                <div className={styles.frameWrapper}>
+                  <div className={styles.parent}>
+                    <div className={styles.div}>Привет!</div>
+                    <div className={styles.div1}>
+                      <p className={styles.p}>Сергей</p>
+                      <p className={styles.p1}>Мельников</p>
+                    </div>
                   </div>
                 </div>
-              </div>
             </div>
             <div className={styles.frameContainer}>
               <button className={styles.mingcutecoinFillParent}>
                 <img
-                  className={styles.mingcutecoinFillIcon}
-                  alt=""
-                  src="/public/lk/mingcutecoinfill@2x.png"
+                    className={styles.mingcutecoinFillIcon}
+                    alt=""
+                    src="/public/lk/mingcutecoinfill@2x.png"
                 />
                 <b className={styles.b}>2 000</b>
               </button>
@@ -410,7 +457,7 @@ export const Profile: NextPage = () => {
      
       </section>
     </div>
-  );
+  </>);
 };
 
 
