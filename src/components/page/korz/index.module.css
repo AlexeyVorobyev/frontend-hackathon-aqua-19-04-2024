@@ -1,0 +1,817 @@
+.time,
+.time1 {
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time {
+  width: 32px;
+  letter-spacing: -0.28px;
+  min-width: 32px;
+}
+.time1 {
+  align-self: stretch;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+}
+.record {
+  height: 21px;
+  border-radius: 999px;
+  background-color: red;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 7px;
+  box-sizing: border-box;
+  font-size: 14.3px;
+  color: var(--color-white);
+}
+.cellularIcon,
+.wifiIcon {
+  height: 10.7px;
+  width: 17px;
+  position: relative;
+}
+.wifiIcon {
+  height: 11px;
+  width: 15.3px;
+}
+.batteryminiIcon {
+  align-self: stretch;
+  width: 23px;
+  position: relative;
+  max-height: 100%;
+  min-height: 11px;
+}
+.statusmini,
+.statusminiWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.statusmini {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0.7px 0.3px var(--padding-12xs) 1.7px;
+  gap: 5.3px;
+}
+.statusminiWrapper {
+  width: 68px;
+  flex-direction: column;
+  padding: 2.2px 0 0;
+  box-sizing: border-box;
+}
+.cameraIndicator {
+  height: 6.3px;
+  width: 6.3px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #67ce67;
+  display: none;
+}
+.mobile,
+.statusBarmini {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.statusBarmini {
+  flex: 1;
+  justify-content: space-between;
+  padding: 18.8px 11px 13.2px 27px;
+  gap: var(--gap-xl);
+}
+.mobile {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke);
+  backdrop-filter: var(--blur-bar-top);
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 4px 0;
+  text-align: center;
+  font-size: 15px;
+  color: var(--color-black);
+  font-family: 'MullerNarrow-Trial';
+}
+.svgIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  box-sizing: border-box;
+  min-height: 48px;
+  max-height: 48px;
+}
+.div {
+  width: 100%;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 82px;
+  max-width: 130px;
+  white-space: nowrap;
+}
+.secondaryButton,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.wrapper {
+  width: 82px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 11.9px 0 0;
+  box-sizing: border-box;
+}
+.secondaryButton {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.mobileParent,
+.secondaryButtonWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.secondaryButtonWrapper {
+  width: 244px;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.mobileParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+}
+.checkbox {
+  margin: 0;
+  width: 24px;
+  height: 24px;
+}
+.checkboxIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.checkbox1,
+.checkboxParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.checkboxParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 67.5px;
+}
+.checkboxIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.checkbox2,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+}
+.frameGroup {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.div1 {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 99px;
+}
+.checkboxes {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 5px;
+  color: var(--secondary-text);
+  font-family: 'MullerNarrow-Trial';
+}
+.frameChild,
+.placeName {
+  position: relative;
+  overflow: hidden;
+}
+.frameChild {
+  height: 85px;
+  width: 84px;
+  border-radius: var(--br-5xs);
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.placeName {
+  align-self: stretch;
+  line-height: 22px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pinIcon {
+  width: 8.1px;
+  height: 11.2px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.currencySymbol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-4) 0 0;
+}
+.div2 {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  font-weight: 300;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.mapBackground,
+.pinContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mapBackground {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-4xs-6);
+}
+.pinContainer {
+  width: 107.8px;
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+}
+.ratingIcon {
+  width: 13.2px;
+  height: 12.6px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.ratingIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-1) 0 0;
+}
+.trashBin {
+  width: 21px;
+  position: relative;
+  line-height: 19px;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 21px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.amountField {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-4);
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--mid-emphasized);
+}
+.addressField,
+.amountField,
+.streetMarker {
+  display: flex;
+  align-items: flex-start;
+}
+.streetMarker {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xs);
+  color: var(--low-emphasized);
+}
+.addressField {
+  width: 201px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.span {
+  font-size: var(--font-size-base);
+}
+.div3 {
+  position: relative;
+  line-height: 135%;
+  display: inline-block;
+  min-width: 54px;
+  white-space: nowrap;
+}
+.solartrashBinMinimalisticLIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.checkmarkIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.favoriteIconChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-tomato-100);
+  backdrop-filter: blur(178px);
+  display: none;
+}
+.heartIcon {
+  position: absolute;
+  height: 58.33%;
+  width: 58.33%;
+  top: 25%;
+  right: 20.83%;
+  bottom: 16.67%;
+  left: 20.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.favoriteIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-tomato-100);
+  backdrop-filter: blur(178px);
+}
+.checkmarkIconParent,
+.favouriteButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkmarkIconParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.favouriteButton {
+  width: 64px;
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+}
+.heartContainer,
+.heartLabel {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.heartLabel {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.heartContainer {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-12xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.divider,
+.frameContainer,
+.heartContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+.divider {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+}
+.frameContainer {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-5xs);
+  gap: 8px;
+}
+.frameItem,
+.placeName1 {
+  position: relative;
+  overflow: hidden;
+}
+.frameItem {
+  height: 85px;
+  width: 84px;
+  border-radius: var(--br-5xs);
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.placeName1 {
+  align-self: stretch;
+  line-height: 22px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pinIcon1 {
+  width: 8.1px;
+  height: 11.2px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.pinIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-4) 0 0;
+}
+.div4 {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  font-weight: 300;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.frameParent3,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-4xs-6);
+}
+.frameWrapper {
+  width: 107.8px;
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+}
+.ratingIcon1 {
+  width: 13.2px;
+  height: 12.6px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.ratingIconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-1) 0 0;
+}
+.div5 {
+  width: 21px;
+  position: relative;
+  line-height: 19px;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 21px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.frameParent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-4);
+  text-align: right;
+  font-size: var(--font-size-sm);
+  color: var(--mid-emphasized);
+}
+.frameParent2,
+.placeNameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent2 {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xs);
+  color: var(--low-emphasized);
+}
+.placeNameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.span1 {
+  font-size: var(--font-size-base);
+}
+.div6 {
+  position: relative;
+  line-height: 135%;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.solartrashBinMinimalisticLIcon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.trashBin1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.favoriteIconItem {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-tomato-100);
+  backdrop-filter: blur(178px);
+  display: none;
+}
+.heartIcon1 {
+  position: absolute;
+  height: 58.33%;
+  width: 58.33%;
+  top: 25%;
+  right: 20.83%;
+  bottom: 16.67%;
+  left: 20.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.favoriteIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-tomato-100);
+  backdrop-filter: blur(178px);
+}
+.allItems {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.allItems,
+.parent,
+.pinPlaceholder {
+  display: flex;
+  align-items: flex-start;
+}
+.pinPlaceholder {
+  width: 64px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frameDiv,
+.frameParent1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.frameDiv {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  gap: var(--gap-smi);
+}
+.checkboxesParent,
+.frameParent,
+.streetLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkboxesParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.frameParent,
+.streetLabel {
+  flex: 1;
+  box-sizing: border-box;
+}
+.streetLabel {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  min-width: 208px;
+}
+.frameParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 8px;
+  max-width: 100%;
+}
+.container,
+.pinIconContainer {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.pinIconContainer {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 18.5px 0 var(--padding-lgi);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--high-emphasized);
+}
+.container {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--russpassru-cod-gray);
+  font-family: 'MullerNarrow-Trial';
+}
+.div7 {
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  white-space: nowrap;
+}
+.currencySymbol1 {
+  width: 85px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div8 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-family: 'MullerNarrow-Trial';
+  color: var(--color-white);
+  text-align: left;
+}
+.frame,
+.frameWrapper1 {
+  display: flex;
+  align-items: center;
+}
+.frame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-3xs) 24px;
+}
+.totalCostInner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  min-width: 151px;
+}
+.goToCart,
+.purchase4,
+.totalCost,
+.totalCostInner {
+  display: flex;
+  justify-content: flex-start;
+}
+.totalCost {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 27px;
+  max-width: 100%;
+}
+.goToCart,
+.purchase4 {
+  overflow: hidden;
+  align-items: flex-start;
+}
+.goToCart {
+  align-self: stretch;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-lgi) 21px 29px 25px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: var(--color-black);
+  font-family: 'MullerNarrow-Trial';
+}
+.purchase4 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  flex-direction: column;
+  gap: 368px;
+  line-height: normal;
+  letter-spacing: normal;
+}

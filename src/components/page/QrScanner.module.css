@@ -1,0 +1,41 @@
+video {
+  width: 100%; /* Установить ширину видео равной ширине экрана */
+  height: 100vh; /* Установить высоту видео равной высоте экрана */
+  object-fit: cover; /* Обеспечить покрытие всей области без искажения пропорций */
+}
+.backButton {
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  z-index: 10;/* Убедиться, что кнопка будет над другими элементами */
+}
+
+.scanText {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  font-size: 31px;
+  text-align: center;
+  z-index: 10;
+  background-color: #f7f7f7;
+}
+.modal {
+  position: fixed; /* Используйте fixed для позиционирования относительно окна браузера */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  width: 80%; /* Процент ширины модального окна относительно ширины экрана */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Небольшая тень для лучшего визуального отделения */
+  background-color: white; /* Фон модального окна */
+  text-align: center; /* Центрирование текста внутри модального окна */
+  border-radius: 10px;
+}
+
+.modalContent {
+  display: flex;
+  justify-content: center; /* Горизонтальное центрирование для flex-элементов */
+  align-items: center; /* Вертикальное центрирование для flex-элементов */
+  height: 100%; /* Высота содержимого равна высоте модального окна */
+}

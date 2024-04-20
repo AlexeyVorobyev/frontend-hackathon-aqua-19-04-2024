@@ -1,0 +1,132 @@
+.b {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 121px;
+  }
+  .solarmapPointBoldIcon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  .div {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    min-width: 48px;
+  }
+  .solarmappointbold {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .solarroutingboldIcon {
+    height: 10px;
+    width: 5.2px;
+    position: relative;
+    object-fit: contain;
+  }
+  .solarmappointboldParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .solarrouting2BoldIcon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  .div1 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+  }
+  .solarrouting2BoldParent {
+    width: 211px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .vectorIcon {
+    height: 10px;
+    width: 5.2px;
+    position: relative;
+    object-fit: contain;
+  }
+  .frameGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .solarchefHatHeartBoldIcon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  .div2 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+  }
+  .solarchefHatHeartBoldParent {
+    width: 171px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .vectorIcon1 {
+    height: 10px;
+    width: 5.2px;
+    position: relative;
+    object-fit: contain;
+  }
+  .frameContainer,
+  .frameParent,
+  .parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frameParent,
+  .parent {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .parent {
+    border-radius: var(--br-base);
+    background-color: var(--color-white);
+    overflow: hidden;
+    padding: var(--padding-mid) var(--padding-5xl) var(--padding-14xl)
+      var(--padding-lgi);
+    gap: var(--gap-5xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: 'MullerNarrow-Trial';
+  }
+  

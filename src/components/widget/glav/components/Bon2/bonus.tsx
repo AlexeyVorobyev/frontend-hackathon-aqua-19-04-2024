@@ -52,7 +52,7 @@ const Bon2 = () => {
       <div className={styles.errorHandler}>
         <div className={styles.parallelProcessorParent}>
           <div className={styles.parallelProcessor}>
-            <div className={styles.div6}>Discount Code</div>
+            <div className={styles.div6}>Код скидки</div>
           </div>
           {qrImages.map(image => (
             <img
@@ -75,17 +75,17 @@ const Bon2 = () => {
             <div className={styles.div7}>
               {pointsData.map(item => (
                 <span key={item.id}><b>{item.points}</b>
-                  <span className={styles.span1}> points</span>
+                  <span className={styles.span1}>баллов</span>
                 </span>
               ))}
             </div>
             <div className={styles.wrapper}>
-              <div className={styles.div8}>welcome points</div>
+              <div className={styles.div8}>Приветственные баллы</div>
             </div>
           </div>
           <div className={styles.container}>
-            <div className={styles.div9}>My Companies</div>
-            <button className={styles.findButton} onClick={handleFindClick}>Find</button>
+            <div className={styles.div9}>Мои компании</div>
+            <button className={styles.findButton} onClick={handleFindClick}>Добавить</button>
           </div>
         </div>
       </div>

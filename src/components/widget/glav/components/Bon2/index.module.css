@@ -669,7 +669,9 @@
   align-items: flex-start;
   gap: 10px;
   border-radius: 8px;
-  background: var(--Primary, #FF5733); /* Используем CSS переменную с фолбэком */
+background: var(--Primary, #FF5733);
+border-style: none;
+color:#fff
 }
 .imageIcon {
   position: absolute;

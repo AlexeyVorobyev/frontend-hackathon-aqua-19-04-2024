@@ -662,15 +662,7 @@
   background-color: var(--color-gray-200);
   filter: blur(16px);
 }
-.findButton {
-  display: inline-flex;
-  padding: 6px 14px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 8px;
-  background: var(--Primary, #FF5733); /* Используем CSS переменную с фолбэком */
-}
+
 .imageIcon {
   position: absolute;
   height: 95.12%;

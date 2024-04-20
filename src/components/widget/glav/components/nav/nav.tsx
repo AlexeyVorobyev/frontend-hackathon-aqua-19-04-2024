@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import styles from "./index.module.css";
 import type { NextPage } from "next";
-
+import { Link } from 'react-router-dom';
 const Nav: NextPage = () => {
     const [searchTerm, setSearchTerm] = useState('');
 
@@ -88,12 +88,12 @@ const Nav: NextPage = () => {
       onChange={handleSearchChange}
     />
   </div>
-  <img
+  <Link to="/qr"><img
     className={styles.lucidescanLineIcon}
     loading="lazy"
     alt=""
     src="/public/glav/lucidescanline.svg"
-  />
+  /></Link>
 </div>
 </div>
   </div>

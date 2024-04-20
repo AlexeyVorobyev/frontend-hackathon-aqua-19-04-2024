@@ -7,6 +7,11 @@ import {Places} from '../components/page/sob/sob.tsx'
 import {Infocard} from '../components/page/infokard/infocard.tsx'
 import {Profile} from '../components/page/lk/lk.tsx'
 import {Purchase} from '../components/page/pocup/pocup.tsx'
+import {Purchase1} from '../components/page/korz/korz.tsx'
+import {QrScanner} from '../components/page/qr.tsx'
+import {Purchase2} from '../components/page/oplataitog/oplataitog.tsx'
+import {Services} from '../components/page/servis/servis.tsx'
+import {Hotel} from '../components/page/hotel/hotel.tsx'
 export const routesListConfig: TRoute[] = [
     {
         path: '/',
@@ -14,9 +19,24 @@ export const routesListConfig: TRoute[] = [
         component: <Main/>,
     },
     {
+        path: '/hotel',
+        name: 'Отель',
+        component: <Hotel/>,
+    },
+    {
         path: '/sob',
         name: 'Интересные события',
         component: <Places/>,
+    },
+    {
+        path: '/oplataitog',
+        name: 'Оплата итог',
+        component: <Purchase2/>,
+    },
+    {
+        path: '/korz',
+        name: 'Интересные события',
+        component: <Purchase1/>,
     },
     {
         path: '/pocup',
@@ -29,9 +49,14 @@ export const routesListConfig: TRoute[] = [
         component: <Infocard/>,
     },
     {
+        path: '/qr',
+        name: 'Сканер',
+        component: <QrScanner/>,
+    },
+    {
         path: '/service',
         name: 'Сервисы',
-        component: "DUDE WHAT THE HELL",
+        component:<Services/>,
     },
 
     {

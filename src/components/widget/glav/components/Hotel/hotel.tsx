@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import styles from "./index.module.css";
 import type { NextPage } from "next";
-
+import { useNavigate } from 'react-router-dom';
 const Hot: NextPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState(null);
@@ -41,6 +41,10 @@ const Hot: NextPage = () => {
   const [cards, setCards] = useState(initialCards);
   const [isActive, setIsActive] = useState(false);
 
+  const navigate = useNavigate();
+  const handleCardClick = () => {
+    navigate('/hotel'); // Navigate to /infocard
+  };
 
   
     return (
@@ -54,7 +58,8 @@ const Hot: NextPage = () => {
           </div>
           <div className={styles.frameParent7}>
   {dataArray.map(item => (
-    <div className={styles.frameParent8} key={item.id}>
+    <div className={styles.frameParent8} key={item.id}
+    onClick={handleCardClick} >
       <div className={styles.rectangleParent}>
         <img
           className={styles.frameItem}

@@ -2,13 +2,19 @@ import type { NextPage } from "next";
 import styles from "./index.module.css";
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 export const Infocard: NextPage = () => {
   const textArray = [
     "Милана с первого выхода своего музыкального клипа сразу попала в сердца юных поклонников. ⁣⁣С тех пор ее музыкальная карьера пошла на взлет!",
     "Продолжение истории Миланы и детали о ее творческом пути и личной жизни..."
   ];
  const [fullTextShown, setFullTextShown] = useState(false);
+ const navigate = useNavigate(); // for react-router-dom v6
 
+  // Handler to navigate to /pocup
+  const handleNavigateToPurchases = () => {
+    navigate('/korz');
+  };
  // Function to toggle text display
  const toggleTextDisplay = () => {
    setFullTextShown(!fullTextShown);
@@ -223,7 +229,7 @@ export const Infocard: NextPage = () => {
             </div>
           </div>
           <div className={styles.anapaLocation}>
-            <button className={styles.cartButton}>
+            <button className={styles.cartButton} onClick={handleNavigateToPurchases}>
               <div className={styles.solarCalendar}>
                 <img
                   className={styles.solarcartLarge3LineDuotonIcon}
