@@ -6,6 +6,7 @@ import {Main} from '../components/page/glav/glav.tsx'
 import {Places} from '../components/page/sob/sob.tsx'
 import {Infocard} from '../components/page/infokard/infocard.tsx'
 import {Profile} from '../components/page/lk/lk.tsx'
+import {Purchase} from '../components/page/pocup/pocup.tsx'
 export const routesListConfig: TRoute[] = [
     {
         path: '/',
@@ -17,7 +18,11 @@ export const routesListConfig: TRoute[] = [
         name: 'Интересные события',
         component: <Places/>,
     },
-    
+    {
+        path: '/pocup',
+        name: 'Мои покупки',
+        component: <Purchase/>,
+    },
     {
         path: '/infocard',
         name: 'информация по карточке',

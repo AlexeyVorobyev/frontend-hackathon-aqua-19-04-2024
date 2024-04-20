@@ -83,7 +83,7 @@
 .statusBarmini {
   flex: 1;
   justify-content: space-between;
-  padding: 18.8px 11px 13.2px 27px;
+  padding:11.700000000000003px var(--padding-xs) var(--padding-xl) 13.2px 27px;
   gap: var(--gap-xl);
 }
 .mobile {

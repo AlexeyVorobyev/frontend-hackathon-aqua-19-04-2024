@@ -83,6 +83,9 @@ body {
   --low-emphasized: #6a778b;
   --high-emphasized: #0a2853;
   --color-black: #000;
+  --color-white: #fff;
+  --russpassru-cod-gray: #1d1d1d;
+  --color-tomato-100: rgba(255, 87, 51, 0.05);
 
   /* Gaps */
   --gap-xl: 20px;
@@ -117,7 +120,9 @@ body {
   --padding-6xs: 7px;
   --padding-5xs: 8px;
   --padding-31xl: 50px;
-
+  --padding-12xs: 1px;
+  --padding-11xs-6: 1.6px;
+  --padding-11xs-5: 1.5px;
   /* Border radiuses */
   --br-base: 16px;
   --br-4xs: 9px;
@@ -126,7 +131,8 @@ body {
   --br-3xs: 10px;
   --br-4xs-3: 8.3px;
   --br-sm: 14px;
-
+  --br-5xs: 8px;
+  --gap-smi: 13px;
   /* Effects */
   --down: 0px 4px 20px rgba(151, 160, 179, 0.17);
   --card-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);

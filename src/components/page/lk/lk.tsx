@@ -1,10 +1,18 @@
+
 import styles from './index.module.css'
 import React, {useState} from 'react'
 import {Button, Paper, Popover, Stack, Typography} from '@mui/material'
 import {theme} from '../../../core/theme/theme.ts'
+import { useNavigate } from 'react-router-dom';
 
 
 export const Profile = () => {
+  const navigate = useNavigate(); // for react-router-dom v6
+
+  // Handler to navigate to /pocup
+  const handleNavigateToPurchases = () => {
+    navigate('/pocup');
+  };
 
   const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
 
@@ -50,38 +58,9 @@ export const Profile = () => {
         </Stack>
       </Paper>
     </Popover>
+
     <div className={styles.profile}>
-      <header className={styles.mobile}>
-        <div className={styles.statusBarmini}>
-          <div className={styles.time}>9:41</div>
-          <div className={styles.record}>
-            <div className={styles.time1}>12:48</div>
-          </div>
-          <div className={styles.statusminiWrapper}>
-            <div className={styles.statusmini}>
-              <img
-                className={styles.cellularIcon}
-                loading="lazy"
-                alt=""
-                src="/public/lk/cellular.svg"
-              />
-              <img
-                className={styles.wifiIcon}
-                loading="lazy"
-                alt=""
-                src="/public/lk/wifi.svg"
-              />
-              <img
-                className={styles.batteryminiIcon}
-                loading="lazy"
-                alt=""
-                src="/public/lk/batterymini.svg"
-              />
-            </div>
-          </div>
-          <div className={styles.cameraIndicator} />
-        </div>
-      </header>
+ 
       <section className={styles.batteryMiniInstance}>
         <div className={styles.frameParent}>
           <div className={styles.frameGroup}>
@@ -157,6 +136,23 @@ export const Profile = () => {
                     src="/public/lk/solarheartlineduotone.svg"
                   />
                   <div className={styles.div6}>Избранное</div>
+                </div>
+                <img
+                  className={styles.vectorIcon}
+                  alt=""
+                  src="/public/lk/footer-instance.svg"
+                />
+              </div>
+            </button>
+            <button className={styles.child}  onClick={handleNavigateToPurchases}>
+              <div className={styles.frameParent1}>
+                <div className={styles.solarheartLineDuotoneParent}>
+                  <img
+                    className={styles.solarheartLineDuotoneIcon}
+                    alt=""
+                    src="/public/lk/solar_cart-large-2-line-duotone.svg"
+                  />
+                  <div className={styles.div6}>Мои покупки</div>
                 </div>
                 <img
                   className={styles.vectorIcon}
