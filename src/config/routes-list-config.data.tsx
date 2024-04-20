@@ -12,6 +12,7 @@ import {QrScanner} from '../components/page/qr.tsx'
 import {Purchase2} from '../components/page/oplataitog/oplataitog.tsx'
 import {Services} from '../components/page/servis/servis.tsx'
 import {Hotel} from '../components/page/hotel/hotel.tsx'
+import {Tour} from '../components/page/tur/tur.tsx'
 export const routesListConfig: TRoute[] = [
     {
         path: '/',
@@ -22,6 +23,11 @@ export const routesListConfig: TRoute[] = [
         path: '/hotel',
         name: 'Отель',
         component: <Hotel/>,
+    },
+    {
+        path: '/tur',
+        name: 'Тур',
+        component: <Tour/>,
     },
     {
         path: '/sob',

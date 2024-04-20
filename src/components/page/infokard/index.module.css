@@ -215,7 +215,7 @@
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 24px 0 var(--padding-base);
+  padding: 0 13px 0 var(--padding-base);
 }
 .mobileParent {
   flex-direction: column;

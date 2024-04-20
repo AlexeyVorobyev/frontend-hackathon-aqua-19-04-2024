@@ -1,0 +1,28 @@
+.react-calendar {
+    width: 350px;
+    max-width: 100%;
+    background: white;
+    line-height: 1.125em;
+    border-radius: 10px;
+    height: 36vh
+    font-family: 'MullerNarrow-Trial';
+}
+.react-calendar__tile--active {
+    background: #FF5733;
+    border-radius: 10px;
+}
+.react-calendar .react-calendar__tile {
+    /* Добавьте стили для тайлов календаря, например для выделения воскресений */
+}
+
+.react-calendar .react-calendar__tile--active {
+    /* Стили для активного выбранного дня */
+}
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+    background: #FF5733;
+    border-radius: 10px;
+}
+.react-calendar__tile--now {
+    background: #dbdbdb;
+    border-radius: 10px;
+}

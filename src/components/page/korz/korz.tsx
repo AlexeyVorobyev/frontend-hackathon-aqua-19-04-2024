@@ -54,37 +54,7 @@ const cardData = [
     <div className={styles.purchase4}>
       <section className={styles.container}>
         <div className={styles.mobileParent}>
-          <header className={styles.mobile}>
-            <div className={styles.statusBarmini}>
-              <div className={styles.time}>9:41</div>
-              <div className={styles.record}>
-                <div className={styles.time1}>12:48</div>
-              </div>
-              <div className={styles.statusminiWrapper}>
-                <div className={styles.statusmini}>
-                  <img
-                    className={styles.cellularIcon}
-                    loading="lazy"
-                    alt=""
-                    src="/public/korz/cellular.svg"
-                  />
-                  <img
-                    className={styles.wifiIcon}
-                    loading="lazy"
-                    alt=""
-                    src="/public/korz/wifi.svg"
-                  />
-                  <img
-                    className={styles.batteryminiIcon}
-                    loading="lazy"
-                    alt=""
-                    src="/public/korz/batterymini.svg"
-                  />
-                </div>
-              </div>
-              <div className={styles.cameraIndicator} />
-            </div>
-          </header>
+       
           <div className={styles.secondaryButtonWrapper}>
             <div className={styles.secondaryButton}>
               <div className={styles.button}>

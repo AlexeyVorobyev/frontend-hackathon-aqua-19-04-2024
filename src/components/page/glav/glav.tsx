@@ -9,7 +9,7 @@ import Sob from '../../widget/glav/components/Sob/sobit';
 import Place from '../../widget/glav/components/Place/place';
 import Hot from '../../widget/glav/components/Hotel/hotel';
 import Infost from '../../widget/glav/components/Infost/infost';
-
+import { useNavigate } from 'react-router-dom';
 // Data array
 const dataArray3 = [
   {
@@ -34,6 +34,11 @@ const dataArray3 = [
 
 // Main component
 export const Main = () => {
+  const navigate = useNavigate();
+  const handleCardClick = () => {
+    navigate('/tur'); // Navigate to /infocard
+  };
+
   return (
     <div className={styles.main}>
       <Nav />
@@ -53,7 +58,7 @@ export const Main = () => {
           </div>
           <div className={styles.frameParent16}>
             {dataArray3.map((item) => (
-              <div className={styles.frameParent8} key={item.id}>
+              <div className={styles.frameParent8} key={item.id} onClick={handleCardClick}>
                 <div className={styles.rectangleParent}>
                   <img
                     className={styles.frameItem}
