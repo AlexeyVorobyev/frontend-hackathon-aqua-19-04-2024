@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import { VitePWA } from 'vite-plugin-pwa';
+import {defineConfig} from 'vite'
+import react from '@vitejs/plugin-react'
+import {VitePWA} from 'vite-plugin-pwa'
 
 export default defineConfig({
     plugins: [
@@ -31,20 +31,10 @@ export default defineConfig({
         }),
     ],
     server: {
-        proxy: {
-            '/api/proxy': {
-                target: 'https://get-qr.com',
-                changeOrigin: true,
-                rewrite: (path) => path.replace(/^\/api\/proxy\//, '/')
-
-            }
-        }
-    }
-    
-    
-    ,
+        port: 3000,
+    },
     base: '/',
     optimizeDeps: {
         exclude: ['@changey/react-leaflet-markercluster'],
     },
-});
+})
