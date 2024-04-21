@@ -96,7 +96,7 @@ export const Purchase2: NextPage = () => {
                           src="/public/oplataitog/mingcutecoinfill-2@2x.png"
                         />
                         <div className={styles.paymentIconSetContainer}>
-                          <span className={styles.span1}>+</span>
+                         
                           <b className={styles.b}>200</b>
                         </div>
                       </div>
@@ -142,7 +142,7 @@ export const Purchase2: NextPage = () => {
                           src="/public/oplataitog/mingcutecoinfill-2@2x.png"
                         />
                         <div className={styles.div13}>
-                          <span className={styles.span3}>+</span>
+                         
                           <b className={styles.b1}>200</b>
                         </div>
                       </div>
@@ -188,7 +188,7 @@ export const Purchase2: NextPage = () => {
                           src="/public/oplataitog/mingcutecoinfill-2@2x.png"
                         />
                         <div className={styles.div19}>
-                          <span className={styles.span5}>+</span>
+                        
                           <b className={styles.b2}>200</b>
                         </div>
                       </div>

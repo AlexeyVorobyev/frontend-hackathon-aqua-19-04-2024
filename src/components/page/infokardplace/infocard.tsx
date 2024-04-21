@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
-export const Infocard: NextPage = () => {
+export const InfocardPlace: NextPage = () => {
   const textArray = [
-    "Милана с первого выхода своего музыкального клипа сразу попала в сердца юных поклонников. ⁣⁣С тех пор ее музыкальная карьера пошла на взлет!",
-    "Продолжение истории Миланы и детали о ее творческом пути и личной жизни..."
+    "Анапа - это настроящий турестический-IT бранд, не только Краснодраского края, но и ЮГА России",
+    "Вместе с командой Avenir вы увидете Анапу на все 360 градусов..."
   ];
  const [fullTextShown, setFullTextShown] = useState(false);
  const navigate = useNavigate(); // for react-router-dom v6
@@ -47,7 +47,7 @@ export const Infocard: NextPage = () => {
               <img
                 className={styles.frameChild}
                 alt=""
-                src="/public/glav/image@2x.png"
+                src="/public/glav/image-1@2x.png"
               />
               <div className={styles.locationName}>
                 <div className={styles.octoberOnPlaces}>
@@ -62,7 +62,7 @@ export const Infocard: NextPage = () => {
                   <div className={styles.wrapper}>
                     <div className={styles.div}>
                       <span>#</span>
-                      <span className={styles.span}>Концерт</span>
+                      <span className={styles.span}>Место</span>
                     </div>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ export const Infocard: NextPage = () => {
                 />
               </div>
               <div className={styles.carouselWrapper}>
-              
+               
               </div>
             </div>
           </div>
@@ -226,7 +226,7 @@ export const Infocard: NextPage = () => {
                   src="/public/infocard/mingcutecoinfill@2x.png"
                 />
                 <div className={styles.solarAppointment}>
-                
+                 
                   <b className={styles.b1}>200</b>
                 </div>
               </div>

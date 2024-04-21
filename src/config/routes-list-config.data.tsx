@@ -13,11 +13,17 @@ import {Purchase2} from '../components/page/oplataitog/oplataitog.tsx'
 import {Services} from '../components/page/servis/servis.tsx'
 import {Hotel} from '../components/page/hotel/hotel.tsx'
 import {Tour} from '../components/page/tur/tur.tsx'
+import {InfocardPlace} from '../components/page/infokardplace/infocard.tsx'
 export const routesListConfig: TRoute[] = [
     {
         path: '/',
         name: 'Главная',
         component: <Main/>,
+    },
+    {
+        path: '/infocardplace',
+        name: 'Карточка вторая',
+        component: <InfocardPlace/>,
     },
     {
         path: '/hotel',

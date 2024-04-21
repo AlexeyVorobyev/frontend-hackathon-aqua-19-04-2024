@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from "./index.module.css";
-
+import { useNavigate } from 'react-router-dom';
 interface Card {
   id: number;
   title?: string;
@@ -32,6 +32,10 @@ const Place: React.FC = () => {
   ];
   const [cards, setCards] = useState<Card[]>(initialCards);
   const [isActive, setIsActive] = useState<boolean>(false);
+  const navigate = useNavigate();
+  const handleCardClick = () => {
+    navigate('/infocardplace'); // Navigate to /infocard
+  };
 
   const cards2: EventCard[] = [
     {
@@ -64,7 +68,7 @@ const Place: React.FC = () => {
       </div>
       <div className={styles.placeCardParent}>
         {cards2.map(card => (
-          <div className={styles.placeCard} key={card.id}>
+          <div className={styles.placeCard} key={card.id} onClick={handleCardClick}>
             <div className={styles.thumbnailParent}>
               <div className={styles.thumbnail}>
                 <div className={styles.shadow} />

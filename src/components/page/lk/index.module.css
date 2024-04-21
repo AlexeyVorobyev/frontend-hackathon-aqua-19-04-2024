@@ -801,11 +801,13 @@
   align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: var(--gap-xl);
   font-size: var(--font-size-mini-1);
   color: var(--color-black);
+  flex-wrap: nowrap;
+
 }
 .frameParent7 {
   position: absolute;
@@ -947,13 +949,15 @@
 }
 .parent6 {
   align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--gap-xl);
-  font-size: var(--font-size-mini-1);
-  color: var(--color-black);
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-mini-1);
+    color: var(--color-black);
+    flex-wrap: nowrap;
+
 }
 .frameParent9 {
   position: absolute;
@@ -1006,7 +1010,7 @@
 }
 .div28,
 .div29 {
-  width: 41px;
+  width: 69px;
   position: relative;
   line-height: 16px;
   display: flex;
@@ -1022,12 +1026,16 @@
   align-self: stretch;
 }
 .parent7 {
-  flex: 1;
+  align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: var(--gap-xl);
+  font-size: var(--font-size-mini-1);
+  color: var(--color-black);
+  flex-wrap: nowrap;
+
 }
 .div30 {
   position: relative;
@@ -1106,11 +1114,12 @@
   align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   gap: var(--gap-xl);
   font-size: var(--font-size-mini-1);
   color: var(--color-black);
+  flex-wrap: nowrap;
 }
 .frameParent11 {
   position: absolute;

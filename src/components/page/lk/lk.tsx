@@ -185,7 +185,7 @@ export const Profile = () => {
                   src="/public/lk/mingcutecoinfill-1@2x.png"
                 />
                 <div className={styles.div9}>
-                  <span className={styles.span}>+</span>
+                  
                   <b className={styles.b2}>200</b>
                 </div>
               </div>
@@ -202,7 +202,7 @@ export const Profile = () => {
                   src="/public/lk/mingcutecoinfill-1@2x.png"
                 />
                 <div className={styles.div11}>
-                  <span className={styles.span1}>+</span>
+                  
                   <b className={styles.b3}>200</b>
                 </div>
               </div>
@@ -219,7 +219,7 @@ export const Profile = () => {
                   src="/public/lk/mingcutecoinfill-1@2x.png"
                 />
                 <div className={styles.div13}>
-                  <span className={styles.span2}>+</span>
+                  
                   <b className={styles.b4}>200</b>
                 </div>
               </div>
@@ -271,7 +271,7 @@ export const Profile = () => {
                           src="/public/lk/mingcutecoinfill-6@2x.png"
                         />
                         <div className={styles.div32}>
-                          <span className={styles.span8}>+</span>
+                        
                           <b className={styles.b8}>200</b>
                         </div>
                       </div>
@@ -317,7 +317,7 @@ export const Profile = () => {
                           src="/public/lk/mingcutecoinfill-6@2x.png"
                         />
                         <div className={styles.div32}>
-                          <span className={styles.span8}>+</span>
+                          
                           <b className={styles.b8}>200</b>
                         </div>
                       </div>
@@ -363,7 +363,7 @@ export const Profile = () => {
                           src="/public/lk/mingcutecoinfill-6@2x.png"
                         />
                         <div className={styles.div32}>
-                          <span className={styles.span8}>+</span>
+                          
                           <b className={styles.b8}>200</b>
                         </div>
                       </div>
