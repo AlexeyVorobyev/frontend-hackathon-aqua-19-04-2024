@@ -53,17 +53,23 @@ export const QrScanner = () => {
   }, [qrRawContent]); // Depend on the raw QR content
 
   const fetchQrContent = async (encodedUrl: string) => {
-    const proxyUrl = `https://cors-anywhere.herokuapp.com/${encodedUrl}`;
+    // Extract the path from the full URL if necessary
+    const urlPath = new URL(encodedUrl).pathname;
+    const proxyUrl = `/api/proxy${urlPath}`;  // Ensure it starts from /api/proxy
+    console.log("URL being requested:", proxyUrl);
     try {
-      const response = await fetch(proxyUrl);
-      const html = await response.text();
-      const content = parseHtmlContent(html);
-      setDisplayContent(content); // Update the display content
+        const response = await axios.get(proxyUrl);
+        const content = parseHtmlContent(response.data);
+        setDisplayContent(content);
     } catch (error) {
-      console.error('Failed to fetch QR content', error);
-      setDisplayContent('Failed to fetch QR content');
+        console.error('Failed to fetch QR content', error);
+        setDisplayContent('Failed to fetch QR content');
     }
-  };
+};
+
+
+
+  
 
   const parseHtmlContent = (html) => {
     const parser = new DOMParser();
